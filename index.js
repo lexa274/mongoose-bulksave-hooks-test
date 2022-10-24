@@ -5,7 +5,7 @@ import mongooseGridFs from 'mongoose-gridfs'
 
 async function main () {
     const mongoDBServer = await MongoMemoryServer.create()
-    await mongoose.connect(mongoDBServer.getUri(), { useUnifiedTopology: true })
+    await mongoose.connect(mongoDBServer.getUri())
 
     const myModelSchema = new mongoose.Schema({
         name: String

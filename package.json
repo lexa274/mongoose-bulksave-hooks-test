@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-bulksave-hools-test",
+  "name": "mongoose-bulksave-hooks-test",
   "version": "1.0.0",
   "description": "A reproduction test case for mongoose hooks running on the bulkSave call.",
   "main": "index.js",
@@ -14,9 +14,9 @@
   "author": "lexa274",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lexa274/mongoose-bulksave-hools-test/issues"
+    "url": "https://github.com/lexa274/mongoose-bulksave-hooks-test/issues"
   },
-  "homepage": "https://github.com/lexa274/mongoose-bulksave-hools-test#readme",
+  "homepage": "https://github.com/lexa274/mongoose-bulksave-hooks-test#readme",
   "dependencies": {
     "mongodb-memory-server": "^8.9.3",
     "mongoose": "^6.6.7",
